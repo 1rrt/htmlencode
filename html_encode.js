@@ -1,5 +1,5 @@
 ;
-var ecdplugin=(function(){
+var encoder=(function(){
   var _encode=function(str){
     while(str.search("<")!=-1){
       str=str.replace("<","&lt;");
